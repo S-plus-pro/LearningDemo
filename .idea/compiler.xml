@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudalibaba-config-nacos-client3377" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-consumer-fegin-hystrix-payment80" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="springboot-mybatis" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-consumer-feign-order80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="springboot-crud" target="1.8" />
+      <module name="springboot-oracle" target="1.8" />
+      <module name="springboot-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+  </component>
+</project>

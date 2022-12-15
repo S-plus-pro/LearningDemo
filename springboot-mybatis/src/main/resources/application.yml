@@ -1,0 +1,19 @@
+server:
+  port: 3421
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud2022?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: sh123456
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+mybatis:
+  # 指定 mapper.xml 的位置
+  mapper-locations: classpath:com/sun/mapper/*.xml
+  #扫描实体类的位置，在此处指明扫描实体类的包，在mapper.xml 中就可以不写实体类的全路径名
+  type-aliases-package: com.sun.entity
